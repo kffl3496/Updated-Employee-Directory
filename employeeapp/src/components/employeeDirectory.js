@@ -1,11 +1,11 @@
 // import React from "react";
 import React, { Component } from 'react';
 import data from "./data.json";
+// import {input} from "./search"
 import "../styles/employeeDirectory.css"
 
 const employees = data.results;
 console.log('employees', employees);
-
 
 function EmployeeDirectory() {
     return (
@@ -69,7 +69,6 @@ function EmployeeDirectory() {
                 ))
             }
         </table>
-        
 
         // <ul>
         //     {

@@ -1,11 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import "./styles/header.css"
 import EmployeeDirectory from "./components/employeeDirectory";
+// import Search from "./components/search";
+import Wrapper from "./components/wrapper";
+import Header from "./components/logoheader";
 
 function App() {
-  return <EmployeeDirectory />
-  
+  return (
+    <Wrapper>
+    <Header/>
+    {/* <Search/> */}
+    <EmployeeDirectory />
+    </Wrapper>
+  );
   // return (
 
   //   // <div>

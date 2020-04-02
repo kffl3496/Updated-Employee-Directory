@@ -1,0 +1,10 @@
+#darkblue {
+    background-color: darkblue;
+    border-width: 5px;
+    border: black;
+    /* border-radius: 5px; */
+}
+
+h1 {
+    color: black;
+}
